@@ -60,7 +60,7 @@ img {
   text-transform: uppercase;
   margin: 0;
   line-height: 1;
-  font-size: clamp(3rem, 10vw, 7rem);
+  font-size: clamp(3rem, 10vw, 12rem);
 }
 
 .location {
@@ -121,7 +121,8 @@ footer {
     display: grid;
     grid-template-columns:
       minmax(1em, 1fr)
-      repeat(3, minmax(10rem, 30rem))
+      repeat(2, minmax(15rem, 35rem))
+      minmax(5rem, 10rem)
       minmax(1em, 1fr);
     gap: 2em;
     position: relative;
